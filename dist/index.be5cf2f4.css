@@ -1,54 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap";
 /*--------------------------------------1. Global Styles ---------------------------------------------------*/
 * {
     box-sizing: border-box;
     margin: 0;
 }
-
 .error-message {
     color: red;
 
 }
-
-
 .blue {
     color: blue;
     /*Africa*/
 }
-
 .green {
     color: green;
     /*Americas*/
 }
-
 .red {
     color: red;
     /*Asia*/
 }
-
 .yellow {
     color: yellow;
     /*Europe*/
 }
-
 .purple {
     color: purple;
     /*Oceania*/
 }
-
 /*----------------------------------------2. Typography --------------------------------------------------------*/
-
 h1 {
     font-family: 'Grape Nuts', cursive;
     font-size: 50px;
 }
-
 /*----------------------------------------3. Layout ------------------------------------------------------------*/
-
 /*----------------------------------------4. Areas -------------------------------------------------------------*/
-
 /*------- 4.1 World map -------------------------------------------------------------------------------------------*/
-
 .world-map {
     display: flex;
     flex-direction: column;
@@ -56,26 +43,21 @@ h1 {
     align-items: center;
     /*border: 3px solid red;*/
 }
-
 .picture-frame {
     display: flex;
     max-width: 1000px;
     /*border: 3px solid black;*/
 }
-
 .world-map-picture {
     width: 100%;
 }
-
 /*------- 4.2 Content -------------------------------------------------------------------------------------------*/
-
 .content-frame {
     display: flex;
     justify-content: center;
     width: 100%;
     /*border: 3px solid yellow;*/
 }
-
 .content {
     display: flex;
     flex-direction: column;
@@ -86,7 +68,6 @@ h1 {
     background-color: #E5E5E5;
     /*border: 3px solid red;*/
 }
-
 .content li{
 
     list-style: none;
@@ -97,3 +78,5 @@ h1 {
 
 
 
+
+/*# sourceMappingURL=index.be5cf2f4.css.map */
